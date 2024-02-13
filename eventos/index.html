@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh; /* Define a altura da tela */
+            margin: 0; /* Remove margens padrão do corpo */
+        }
+
+    </style>
+</head>
+<body>
+    <p id="texto"></p>
+
+    <button id="meubotao">Clique Aqui</button>
+
+    <select id="itens" style="margin-top: 50px;">
+        <option value="1">valor 1</option>
+        <option value="2">valor 2</option>
+        <option value="3">valor 3</option>
+        <option value="4">valor 4</option>
+        <option value="5">valor 5</option>
+        <option value="6">valor 6</option>
+    </select>
+
+    <div id="teste" onclick="viraRosa()" onmouseover="viraVermelho()" onmouseout="viraVerde()" class="minhaDiv" 
+        style="margin-top:50px; width: 80%; height: 200px; background: blue">
+    </div>
+
+    <input onfocus="console.log('campo focado')" type="text" id="campotexto" style="padding: 80px; font-size: 40px; margin-top: 50px">
+
+<script src="script.js"></script>
+</body>
+</html>
