@@ -1,9 +1,13 @@
-                //0          //1        //2         //3         //4     //5
-// const lista = ["monitor","teclado","gabinete","placa de video","ram","cooler"];
-// const peças = ["carregador","futemax","memoria","water cooler"];
+/*                //0          //1        //2         //3         //4     //5
+const lista = ["monitor","teclado","gabinete","placa de video","ram","cooler"];
+const peças = ["carregador","futemax","memoria","water cooler"];
 
-// const superlista = lista.concat(peças) //junta as duas matrizes lista/peças
+const superlista = lista.concat(peças) //junta as duas matrizes lista/peças
 
+lista.shift("bonitao")
+
+document.getElementById("teste").innerHTML = superlista.join(" - ");
+*/
 
 const numeros = [40,50,25,78,14,23,9];
 
