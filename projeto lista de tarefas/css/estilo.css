@@ -64,6 +64,15 @@ main {
     margin-bottom: 10px;
 }
 
+/* entender como essa propriedade funciona ".item.feito" */
+.item.feito {
+    background-color: #ccc;
+}
+
+.item.feito .item-nome {
+    text-decoration: line-through;
+}
+
 .item-icone {
     flex: 20%;
     /* border: 1px solid red; */
@@ -93,4 +102,7 @@ main {
     cursor: pointer;
 }
 
+.mdi.mdi-check-circle {
+    color: green;
+}
 
