@@ -20,6 +20,7 @@ function addTarefa() {
         </div>`
 
         main.innerHTML += novoItem;
-
+        input.value = "";
+        
     }
 }
